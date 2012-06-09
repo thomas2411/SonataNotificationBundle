@@ -12,7 +12,7 @@ To begin, add the dependent bundles to the vendor/bundles directory. Add the fol
         target=/php-amqplib
 
     [SonataDoctrineExtensions]
-        git=git@github.com:sonata-project/sonata-doctrine-extensions.git
+        git=git://github.com/sonata-project/sonata-doctrine-extensions.git
         target=/sonata-doctrine-extensions
 
 Now, add the new `SonataNotificationBundle` Bundle to the kernel
